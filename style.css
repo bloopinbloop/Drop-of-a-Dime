@@ -1,0 +1,1039 @@
+/*Style Sections*/
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #b8b6ad80;
+}
+
+h4 {
+  margin-left: 3vw;
+  margin-right: 4vw;
+  margin-top: 2vw;
+  font-size: 2vw;
+}
+
+p {
+  font-family: Century gothic, sans-serif;
+  margin-left: 3vw;
+  margin-right: 4vw;
+  font-size: 1.5vw;
+}
+
+h3 {
+  color: rgb(35, 51, 58);
+  font-size: 2vw;
+  margin: 2vw;
+  margin-left: 4vw;
+  margin-bottom: 1vw;
+  font-family: Trebuchet MS;
+  font-weight: 700;
+  font-style: italic;
+}
+
+h5 {
+  margin-top: 2vw;
+  font-family: Trebuchet MS;
+  font-size: 1.5vw;
+  font-weight: 700;
+  font-style: italic;
+  color: #4b441d;
+  margin-left: 3vw;
+  margin-right: 4vw;
+  text-align: center;
+}
+
+button {
+  padding: 0.75vw;
+  font-size: 1.25vw;
+  font-weight: bold;
+  border-radius: 15%;
+  border-color: #2b2a24;
+}
+
+button a{
+  color: white;
+  text-decoration: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+/*Home*/
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  max-width: 100%;
+  background-size: cover;
+  background-color: rgba(0, 0, 0, 0.726);
+  background-image: url("assets/dimes.jpg");
+  background-attachment: fixed;
+  background-blend-mode: multiply;
+  opacity: 60%;
+}
+
+#home {
+  width: 100% - 5vw;
+  height: 100%;
+  max-width: 100%;
+  margin-left: 4em;
+}
+
+#home h1 {
+  opacity: 100%;
+  font-family: Trebuchet MS;
+  font-size: 5vw;
+  font-weight: 700;
+  font-style: italic;
+  padding-top: 35vw;
+  color: rgb(255, 255, 255);
+  text-shadow:  0 0 0.3vw black, 0 0 0.3vw black, 0 0 0.3vw black, 0 0 0.3vw black;
+}
+
+#home h3 {
+  margin: 0;
+  margin-top: 0.5vw;
+  margin-bottom: 1vw;
+  font-family: Trebuchet MS;
+  font-weight: 700;
+  color: rgb(255, 255, 255);
+  text-shadow:  0 0 0.3vw black, 0 0 0.3vw black, 0 0 0.3vw black, 0 0 0.3vw black;
+}
+
+.button1 {
+  opacity: 100%;
+  background-color: #4b441d;
+  text-shadow:  0 0 0.2vw black, 0 0 0.2vw black, 0 0 0.2vw black, 0 0 0.2vw black;
+}
+
+.button1:hover, .button2:hover {
+  background-color: #928f77;
+}
+
+.button2 {
+  margin-left: 1vw;
+  opacity: 100%;
+  background-color: #4b441d;
+  text-shadow:  0 0 0.2vw black, 0 0 0.2vw black, 0 0 0.2vw black, 0 0 0.2vw black;
+}
+
+
+#ourMission {
+  font-size: 2.5vw;
+  margin-bottom: 2vw;
+  margin-left: 4vw;
+  margin-right: 3vw;
+}
+
+#ourMission h3 {
+  color: rgb(35, 51, 58);
+  margin-left: 0;
+  font-family: Trebuchet MS;
+  font-weight: 700;
+  font-style: italic;
+}
+
+#ourMission p {
+  margin-left: 0;
+  line-height: 1.5;
+}
+
+.row {
+  margin-left: 3vw;
+  margin-right: 2vw;
+  font-size: 3vw;
+}
+
+.column {
+  float: left;
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+ 
+  width: 29%;
+  min-height: 320px;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.377);
+  
+  padding: 1%;
+  margin: 1%;
+  color: white;
+  font-weight: 700;
+  border-style: none;
+}
+
+.column:hover {
+  background-color: black;
+}
+
+#resourceOne {
+  font-family: Trebuchet MS;
+  font-style: italic;
+  text-shadow:  0 0 0.2vw black, 0 0 0.2vw black, 0 0 0.2vw black, 0 0 0.2vw black;
+  background-image: url("https://images.pexels.com/photos/730564/pexels-photo-730564.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+  background-size: cover;
+  background-blend-mode: overlay;
+}
+
+#resourceTwo {
+  font-family: Trebuchet MS;
+  font-style: italic;
+  text-shadow:  0 0 0.2vw black, 0 0 0.2vw black, 0 0 0.2vw black, 0 0 0.2vw black;
+  background-image: url("https://images.pexels.com/photos/889042/pexels-photo-889042.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+  background-size: cover;
+  background-blend-mode: overlay;
+}
+
+#resourceThree {
+  font-family: Trebuchet MS;
+  font-style: italic;
+  text-shadow:  0 0 0.2vw black, 0 0 0.2vw black, 0 0 0.2vw black, 0 0 0.2vw black;
+  background-image: url("https://live.staticflickr.com/7718/16975553649_079113d3f8_b.jpg");
+  background-size: cover;
+  background-blend-mode: overlay;
+}
+
+/*Navigation Bar*/
+
+.navbar {
+  text-align: center;
+  margin-bottom: 2vw;
+  background-color: #5c563cdc;
+}
+
+.navbar a{
+  font-size: 1.5vw;
+  font-family: Century Gothic, sans-serif;
+  font-weight: 600;
+  color: rgb(210, 215, 218);
+  text-decoration: none;
+  overflow: hidden;
+  display: inline-block;
+  padding: 0.5em 1em;
+}
+
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  padding: 0;
+  display: none;
+  position: absolute;
+  z-index: 1;
+  background-color: #6d684f;
+  min-width: 11.65vw;
+  box-shadow: 0px 0.6vw 0.8vw 0px rgb(0,0,0,0.2);
+}
+
+.dropdown-content a{
+  float: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown:hover .dropdown-content{
+  display: block;
+}
+
+.navbar a:hover, .dropdwon a:hover, .dropdown-content a:hover {
+  background-color: #817b5b;
+}
+
+/*Global Inequality*/
+.globalHeading {
+  color: rgb(35, 51, 58);
+  font-family: Trebuchet MS;
+  font-size: 3vw;
+  font-weight: 700;
+  margin-left: 4vw;
+  margin-right: 4vw;
+}
+
+.globalDesc {
+  margin-top: 2vw;
+  line-height: 2;
+  margin-left: 4vw;
+  margin-bottom: 2vw;
+}
+
+
+.countryInfo h4 {
+  color: #4b441d;
+  font-size: 2vw;
+  margin: 2vw;
+  margin-left: 3vw;
+  margin-bottom: 1vw;
+  font-family: Trebuchet MS;
+  font-weight: 700;
+  font-style: italic;
+  padding-top: 0;
+}
+
+.globalInfo {
+  margin-left: 3vw;
+}
+
+.globalInfo p {
+  margin-bottom: 1vw;
+  line-height: 2vw;
+}
+
+.countryInfo p {
+  margin-bottom: 2vw;
+}
+
+.countryInfo {
+  float: left;
+  width: 30.55%;
+  margin-left: 1vw;
+  border: solid #4b441d;
+}
+
+#globalOne {
+  font-family: Trebuchet MS;
+  font-style: italic;
+  text-shadow:  0 0 0.2vw black, 0 0 0.2vw black, 0 0 0.2vw black, 0 0 0.2vw black;
+  background-image: url("https://images.pexels.com/photos/3222684/pexels-photo-3222684.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+  background-size: cover;
+  background-blend-mode: overlay;
+}
+
+#globalTwo {
+  font-family: Trebuchet MS;
+  font-style: italic;
+  text-shadow:  0 0 0.2vw black, 0 0 0.2vw black, 0 0 0.2vw black, 0 0 0.2vw black;
+  background-image: url("https://images.pexels.com/photos/220201/pexels-photo-220201.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+  background-size: cover;
+  background-blend-mode: overlay;
+}
+
+#globalThree {
+  font-family: Trebuchet MS;
+  font-style: italic;
+  text-shadow:  0 0 0.2vw black, 0 0 0.2vw black, 0 0 0.2vw black, 0 0 0.2vw black;
+  background-image: url("https://live.staticflickr.com/65/182538685_643571cdea_b.jpg");
+  background-size: cover;
+  background-blend-mode: overlay;
+}
+
+#resourceHeading {
+  margin-top: 40vw;
+  color: rgb(35, 51, 58);
+  margin-left: 1vw;
+  font-family: Trebuchet MS;
+  font-weight: 700;
+  font-style: italic;
+}
+
+/*Take Action*/
+
+.actionHeading h2{
+  color: rgb(35, 51, 58);
+  font-family: Trebuchet MS;
+  font-size: 3vw;
+  font-weight: 700;
+  margin-left: 3vw;
+  margin-right: 4vw;
+}
+
+.actionDesc h4 {
+  font-family: Trebuchet MS;
+  font-style: italic;
+  margin-top: 2vw;
+  font-size: 2vw;
+}
+
+.actionDesc p {
+  font-size: 1.5vw;
+  margin-top: 1vw;
+  line-height: 2;
+  margin-bottom: 0;
+}
+
+.actionDesc a {
+  color: #4b441d;
+  text-decoration: none;
+}
+
+.actionDesc a:hover{
+  color: #928f77;
+}
+
+.description {
+  float: left;
+  width: 50%;
+}
+
+.actionDesc:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/*Donate*/
+
+.donateHeading {
+  color: rgb(35, 51, 58);
+  font-family: Trebuchet MS;
+  font-size: 3vw;
+  font-weight: 700;
+  margin-left: 3vw;
+  margin-right: 4vw;
+}
+
+.donateHeading h2{
+  font-family: Trebuchet MS;
+  font-size: 3vw;
+  font-weight: 700;
+  margin-left: 3vw;
+  margin-right: 4vw;
+}
+
+.donateDesc a:hover{
+  color: #928f77;
+}
+
+.donateDesc h4 {
+  font-family: Trebuchet MS;
+  font-style: italic;
+  margin-top: 2vw;
+  font-size: 2vw;
+}
+
+.donateDesc p {
+  font-size: 1.5vw;
+  margin-top: 1vw;
+  line-height: 2;
+}
+
+.donateDesc a {
+  color: #4b441d;
+  text-decoration: none;
+}
+
+.donateDesc img:hover {
+  opacity: 50%;
+}
+
+.charity {
+  float: left;
+  width: 50%;
+}
+
+#fund {
+  border-radius: 50%;
+  margin-top: 1vw;
+  margin-bottom: 1.5vw;
+  margin-left: 10vw;
+  border: 0.5vw solid #817b5b;
+}
+
+#saveChildren {
+  margin-top: 1vw;
+  margin-bottom: 1.5vw;
+  margin-left: 10vw;
+  border: 0.5vw solid #817b5b;
+}
+
+/*Write a Letter*/
+
+.writeHeading {
+  color: rgb(35, 51, 58);
+  font-family: Trebuchet MS;
+  font-size: 3vw;
+  font-weight: 700;
+  margin-left: 3vw;
+  margin-right: 4vw;
+}
+
+
+.writeBlanks {
+  margin-top: 1.5%;
+  margin-left: 25%;
+  margin-right: 25%;
+  background: #928f77a8;
+  border-radius: 10%;
+  border: 0.1vw solid #4b441d;
+  font-size: 1.3vw;
+  font-family: Trebuchet MS;
+  font-style: italic;
+  font-weight: bold;
+  color: white;
+  text-shadow:  0 0 0.2vw #4b441d, 0 0 0.2vw #4b441d, 0 0 0.2vw #4b441d, 0 0 0.2vw #4b441d;
+}
+
+.writeItem {
+  margin-top: 0.7vw;
+  margin-bottom: 0.7vw;
+  margin-left: 1vw;
+  margin-right: 0.7vw;
+  padding-top: 1.4vw;
+  padding-left: 1.4vw;
+  padding-right: 2.5vw;
+}
+
+#writeBtn {
+  margin-left: 18.5vw;
+  margin-right: 5vw;
+  margin-top: 1vw;
+  margin-bottom: 1.5vw;
+  padding: 0.75vw;
+  font-size: 1.25vw;
+  font-weight: bold;
+  border-radius: 15%;
+  background-color: #4b441d;
+  border: 0.2 solid #2b2a24;
+  color: white;
+  text-shadow:  0 0 0.2vw black, 0 0 0.2vw black, 0 0 0.2vw black, 0 0 0.2vw black;
+}
+
+#writeBtn:hover {
+  background-color: #8b865ad3;
+  cursor: pointer;
+}
+
+input {
+  margin-top: 5px;
+  padding: 0.5em;
+  border-style: none;
+  border-radius: 5px;
+  width: 100%;
+  font-weight: bold;
+}
+
+#generatedLetter {
+  margin-top: 2vw;
+  margin-bottom: 2vw;
+  margin-left: 15vw;
+  margin-right: 15vw;
+  line-height: 2;
+  font-size: 1.3vw;
+}
+
+/*Join Us*/
+
+.joinHeading {
+  color: rgb(35, 51, 58);
+  font-family: Trebuchet MS;
+  font-size: 3vw;
+  font-weight: 700;
+  margin-left: 3vw;
+  margin-right: 4vw;
+}
+
+.joinContainer {
+  margin-right: 4vw;
+  margin-left: 3vw;
+}
+
+.joinContainer h5{
+  margin-left: 0;
+  text-align: left;
+}
+
+.joinContainer button{
+  padding: 0.75vw;
+  font-size: 1.25vw;
+  font-weight: bold;
+  border-radius: 15%;
+  border-color: #2b2a24;
+  background-color: #4b441d;
+  color: white;
+  text-shadow:  0 0 0.2vw black, 0 0 0.2vw black, 0 0 0.2vw black, 0 0 0.2vw black;
+}
+
+.joinContainer button:hover {
+  background-color: #8b865ad3;
+  cursor: pointer;
+}
+
+.joinUsDesc {
+  float: left;
+  width: 50%;
+}
+
+.contactHeader {
+  margin-left: 0;
+}
+
+
+#firstName {
+  width: 40%;
+  height:2vw;
+  margin-bottom: .5vw;
+  padding: .5vw;
+  border-style: none;
+}
+
+#lastName {
+  width: 40%;
+  height: 2vw;
+  margin-bottom: .5vw;
+  padding: .5vw;
+  border-style: none;
+}
+
+#email {
+  width: 80.5%;
+  height:1.5vw;
+  margin-bottom: .5vw;
+  padding: 1vw;
+  border-style: none
+}
+
+#message {
+  padding: 1vw;
+  width: 80.5%;
+  height: 17vw;
+  margin-bottom: .5vw;
+  border-style: none;
+}
+
+#checklist {
+  background-color: white;
+  border-radius: 10%;
+  padding-top: 0.3vw;
+  padding-bottom: 1vw;
+  margin-top: 2vw;
+}
+
+.checklistHeader {
+  margin-left: 2.5vw;
+}
+
+#checklistNote {
+  text-align: center;
+  margin-left: 2.5vw;
+  font-size: 1vw;
+}
+
+#listActivity li {
+  cursor: pointer;
+  padding-top: 1.3vw;
+  padding-bottom: 1vw;
+  padding-left: 6vw; 
+  position: relative;
+  list-style-type: none;
+  width: 85%;
+  color: #2b2a24;
+  font-size: 1.3vw;
+  font-family: Century gothic, sans-serif;
+}
+
+#listActivity li::before {
+  content: "";
+  position: absolute;
+  border-color: #2b2a24;
+  border-style: solid;
+  border-width: 0.2vw;
+  top: 1.5vw;
+  left: 2.8vw;
+  height: 1vw;
+  width: 1vw;
+}
+
+#listActivity li.checked {
+  text-decoration: line-through;
+}
+
+#listActivity li.checked::before {
+  content: "";
+  position: absolute;
+  border-color: green;
+  border-style: solid;
+  border-width: 0 0.2vw 0.2vw  0;
+  top: 1.3vw;
+  left: 3vw;
+  transform: rotate(45deg);
+  height: 1.3vw;
+  width: 0.5vw;
+}
+
+/*Responsive*/
+@media screen and (max-width: 850px) {
+  h5 {
+    font-size: 2.5vw;
+  }
+  h3 {
+    font-size: 4vw;
+  }
+  h4{
+    font-size: 4vw;
+  }
+  h2{
+    margin-top: 5vw;
+  }
+  .navbar a {
+    font-size: 3vw;
+  }
+  #home {
+    margin-left: 5vw;
+  }
+  #home h1 {
+    padding-top: 60vw;
+    font-size: 9vw;
+  }
+  #home h3 {
+    font-size: 3.5vw;
+  }
+  .button1, .button2 {
+    padding: 1.5vw;
+    font-size: 3vw
+  }
+  #ourMission h3 {
+    font-size: 4vw;
+    margin-top: 5vw;
+  }
+  #ourMission p {
+    font-size: 3vw;
+    line-height: 2;
+  }
+  #learnMore h3{
+    font-size: 4vw;
+    margin-bottom: 3vw;
+  }
+  .globalHeading {
+    font-size: 5vw;
+    margin-top: 5vw;
+  }
+  .globalDesc {
+    font-size: 3vw;
+  }
+  .globalInfo h4{
+    font-size: 3vw;
+  }
+  .globalInfo p{
+    font-size: 2.5vw;
+    line-height: 1.5;
+  }
+  #resourceHeading {
+    margin-top: 113vw;
+    margin-bottom: 2vw;
+  }
+  .actionDesc h4 {
+    font-size: 3.5vw;
+  }
+  .actionDesc p {
+    font-size: 2vw;
+  }
+  .actionHeading h2{
+    font-size: 5vw;
+    margin-top: 5vw;
+  }
+  .donateHeading{
+    font-size: 5vw;
+    margin-top: 5vw;
+  }
+  .charity h4 {
+    font-size: 3vw;
+  }
+  .charity p {
+    font-size: 2vw;
+  }
+  .writeHeading {
+    font-size: 5vw;
+  }
+  .writeBlanks {
+    font-size: 2vw;
+    padding-right: 1.5vw;
+  }
+  #writeBtn {
+    padding: 1.5vw;
+    font-size: 2vw;
+    margin-left: 17vw;
+  }
+  #generatedLetter {
+    font-size: 2vw;
+  }
+  .joinHeading {
+    font-size: 5vw;
+  }
+  .contactHeading h3{
+    font-size: 3vw;
+  }
+  #checklist {
+    padding-top: 1vw;
+    padding-bottom: 2vw;
+  }
+  #checklistNote {
+    font-size: 1.5vw;
+  }
+  #listActivity li{
+    font-size: 2vw;
+  }
+  #message {
+    height: 33vw;
+  }
+  #submitBtn {
+    padding: 1.5vw;
+    font-size: 2vw
+  }
+}
+
+@media screen and (max-width: 540px) {
+  h5 {
+    font-size: 2.5vw;
+  }
+  h3 {
+    font-size: 4vw;
+  }
+  h4{
+    font-size: 4vw;
+  }
+  h2{
+    margin-top: 5vw;
+  }
+  .navbar a {
+    font-size: 3vw;
+  }
+  #home {
+    margin-left: 5vw;
+  }
+  #home h1 {
+    padding-top: 60vw;
+    font-size: 9vw;
+  }
+  #home h3 {
+    font-size: 3.5vw;
+  }
+  .button1, .button2 {
+    padding: 1.5vw;
+    font-size: 3vw
+  }
+  #ourMission h3 {
+    font-size: 4vw;
+    margin-top: 5vw;
+  }
+  #ourMission p {
+    font-size: 3vw;
+    line-height: 2;
+  }
+  #learnMore h3{
+    font-size: 4vw;
+    margin-bottom: 3vw;
+  }
+  .globalHeading {
+    font-size: 5vw;
+    margin-top: 5vw;
+  }
+  .globalDesc {
+    font-size: 3vw;
+  }
+  .globalInfo h4{
+    font-size: 3vw;
+  }
+  .globalInfo p{
+    font-size: 2.5vw;
+    line-height: 1.5;
+  }
+  #resourceHeading {
+    margin-top: 113vw;
+    margin-bottom: 2vw;
+  }
+  .actionDesc h4 {
+    font-size: 3.5vw;
+  }
+  .actionDesc p {
+    font-size: 2vw;
+  }
+  .actionHeading h2{
+    font-size: 5vw;
+    margin-top: 5vw;
+  }
+  .donateHeading{
+    font-size: 5vw;
+    margin-top: 5vw;
+  }
+  .charity h4 {
+    font-size: 3vw;
+  }
+  #saveChildren {
+    margin-top: 5vw;
+    margin-left: 7vw;
+    max-width: 75%;
+  }
+   #fund {
+    margin-top: 5vw;
+    margin-left: 7vw;
+    max-width: 75%;
+  }
+  .charity p {
+    font-size: 2vw;
+  }
+  .writeHeading {
+    font-size: 5vw;
+  }
+  .writeBlanks {
+    font-size: 2vw;
+    padding-right: 1.5vw;
+  }
+  #writeBtn {
+    padding: 1.5vw;
+    font-size: 2vw;
+    margin-left: 17vw;
+  }
+  #generatedLetter {
+    font-size: 2vw;
+  }
+  .joinHeading {
+    font-size: 5vw;
+  }
+  .contactHeading h3{
+    font-size: 3vw;
+  }
+  #checklist {
+    padding-top: 1vw;
+    padding-bottom: 2vw;
+  }
+  #checklistNote {
+    font-size: 1.7vw;
+  }
+  #listActivity li{
+    font-size: 2vw;
+  }
+  #message {
+    height: 33vw;
+  }
+  #submitBtn {
+    padding: 1.5vw;
+    font-size: 2vw
+  }
+}
+
+@media screen and (max-width: 480px) {
+  h5 {
+    font-size: 2.5vw;
+  }
+  h3 {
+    font-size: 4vw;
+  }
+  h4{
+    font-size: 4vw;
+  }
+  h2{
+    margin-top: 5vw;
+  }
+  .navbar a {
+    font-size: 3vw;
+  }
+  #home {
+    margin-left: 5vw;
+  }
+  #home h1 {
+    padding-top: 60vw;
+    font-size: 9vw;
+  }
+  #home h3 {
+    font-size: 3.5vw;
+  }
+  .button1, .button2 {
+    padding: 1.5vw;
+    font-size: 3vw
+  }
+  #ourMission h3 {
+    font-size: 4vw;
+    margin-top: 5vw;
+  }
+  #ourMission p {
+    font-size: 3vw;
+    line-height: 2;
+  }
+  #learnMore h3{
+    font-size: 4vw;
+    margin-bottom: 3vw;
+  }
+  .countryInfo {
+    border: 0.3vw solid;
+  }
+  .globalHeading {
+    font-size: 5vw;
+    margin-top: 5vw;
+  }
+  .globalDesc {
+    font-size: 3vw;
+  }
+  .globalInfo h4{
+    font-size: 3vw;
+  }
+  .globalInfo p{
+    font-size: 2.5vw;
+    line-height: 1.5;
+  }
+  #resourceHeading {
+    margin-top: 85vw;
+    margin-bottom: 2vw;
+  }
+  .actionDesc h4 {
+    font-size: 3.5vw;
+  }
+  .actionDesc p {
+    font-size: 2vw;
+  }
+  .actionHeading h2{
+    font-size: 5vw;
+    margin-top: 5vw;
+  }
+  .donateHeading{
+    font-size: 5vw;
+    margin-top: 5vw;
+  }
+  .charity h4 {
+    font-size: 3vw;
+  }
+  .charity p {
+    font-size: 2vw;
+  }
+  .writeHeading {
+    font-size: 5vw;
+  }
+  .writeBlanks {
+    font-size: 2vw;
+    padding-right: 1.5vw;
+  }
+  #writeBtn {
+    padding: 1.5vw;
+    font-size: 2vw;
+    margin-left: 17vw;
+  }
+  #generatedLetter {
+    font-size: 2vw;
+  }
+  .joinHeading {
+    font-size: 5vw;
+  }
+  #checklist {
+    padding-top: 1vw;
+    padding-bottom: 2vw;
+  }
+  #checklistNote {
+    font-size: 1.5vw;
+  }
+  #listActivity li{
+    font-size: 2vw;
+  }
+  #message {
+    height: 33vw;
+  }
+  #submitBtn {
+    padding: 1.5vw;
+    font-size: 2vw
+  }
+  #saveChildren {
+    margin-top: 5vw;
+    margin-left: 7vw;
+    max-width: 75%;
+  }
+  #fund {
+    margin-top: 5vw;
+    margin-left: 7vw;
+    max-width: 75%;
+  }
+}

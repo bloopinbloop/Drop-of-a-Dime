@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Write a Letter | Drop of a Dime</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+
+  <body>
+    <div class="navbar">
+      <a href="index.html">Home</a>
+      <a href="global-inequality.html">Global Inequality</a>
+      <div class="dropdown">
+        <a href="take-action.html" id="dropdownButton">Take Action</a>
+        <div class="dropdown-content">
+          <a href="donate.html">Donate</a>
+          <a href="write-a-letter.html">Letter</a>
+        </div>
+      </div>
+      <a href="join-us.html">Join Us</a>
+    </div>
+
+    <h2 class="writeHeading">Write a Letter</h2>
+    <h5>Fill in the boxes below to generate a letter for your state senator or represenative!</h5>
+
+    <main class="letter">
+      
+      <div class="writeBlanks">
+        <div class="writeItem">
+          <label for="yourState">Your state:</label>
+          <input type="text" id="state">
+        </div>
+
+        <div class="writeItem">
+          <label for="yourName">Your name:</label>
+          <input type="text" id="name">
+        </div>
+
+        <div class="writeItem">
+          <label for="yourConcern">Your concern:</label>
+          <input type="text" id="concern">
+        </div>
+
+        <button id="writeBtn">Generate Letter</button>
+
+      </div>
+
+      <p id="generatedLetter"></p>
+
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+
+  
+</html>
