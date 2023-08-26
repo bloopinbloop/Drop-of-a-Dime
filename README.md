@@ -1,5 +1,6 @@
 # Drop-of-a-Dime
 A 2021 GWC Summer Immersion activist project made in a 5-day time frame using HTML, CSS, and JavaScript.
+
 Link to website: [Drop of a Dime](https://km-verde.github.io/Drop-of-a-Dime/)
 
 # Activist Toolkit Project
