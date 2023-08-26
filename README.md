@@ -3,6 +3,8 @@ A 2021 GWC Summer Immersion activist project made in a 5-day time frame using HT
 
 Link to website: [Drop of a Dime](https://km-verde.github.io/Drop-of-a-Dime/)
 
+![Drop of a Dime home screen](https://github.com/km-verde/Drop-of-a-Dime/blob/main/assets/dropOfADimeImg.png)
+
 # Activist Toolkit Project
 Cause: Wealth Inequality
 
